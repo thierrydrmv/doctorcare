@@ -49,6 +49,12 @@ body {
   padding-inline: 2.4rem;
 }
 
+.container {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
 ul {
   list-style: none;
 }
@@ -387,6 +393,62 @@ body.menu-expanded button path {
   margin-bottom: 6rem;
 }
 
+/* -------------------TESTIMONIALS------------------*/
+#testimonials {
+  background: white;
+}
+
+#testimonials header h2 {
+  margin-bottom: 8rem;
+}
+
+#testimonials blockquote {
+  padding: 3.2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.25rem;
+}
+
+#testimonials blockquote p {
+  position: relative;
+  text-indent: 3.3rem;
+  margin-bottom: 2.4rem;
+}
+
+#testimonials blockquote p span {
+  font: 700 4.2rem serif;
+
+  position: flex;
+  top: -0.8rem;
+  left: 0rem;
+  color: var(--primary-color);
+}
+#testimonials cite {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  color: rgb(88, 81, 81);
+}
+
+#testimonials cite img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: 0.8rem;
+  margin-left: 3.2rem;
+}
+
+/* SWIPER */
+
+.swiper-slide {
+  height: auto;
+  padding: 6rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+  color: var(--primary-color);
+}
+
 /* -------------------CONTACT------------------*/
 
 #contact {
@@ -477,6 +539,11 @@ footer .social-links {
   .wrapper {
     width: min(112rem, 100%);
     display: grid;
+  }
+
+  .container {
+    width: min(112rem, 100%);
+    display: block;
   }
 
   .col-a {

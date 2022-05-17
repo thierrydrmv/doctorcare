@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoctorCare</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -74,6 +78,9 @@
             </li>
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
             <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li>
+              <a onclick="closMenu()" href="#testimonials">Depoimentos</a>
+            </li>
           </ul>
           <a class="button" onclick="closeMenu()" href="#contact"
             >Agende sua consulta</a
@@ -466,6 +473,69 @@
       </div>
     </section>
 
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header>
+          <h2>Depoimentos de quem já passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo; </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/men/60.jpg"
+                    alt="Foto de Roberto Marins"
+                  />
+                  Roberto Marins
+                </cite>
+              </blockquote>
+            </div>
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo; </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/women/55.jpg"
+                    alt="Foto de Maria Klev"
+                  />
+                  Maria Klev
+                </cite>
+              </blockquote>
+            </div>
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo; </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/men/74.jpg"
+                    alt="Foto de Thiago Silva"
+                  />
+                  Thiago Silva
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
       <div class="wrapper">
         <div class="col-a">
@@ -730,6 +800,7 @@
     <!-- ScrollReveal lib-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
