@@ -84,11 +84,13 @@ ScrollReveal({
   #services .card,
   #about,
   #about header,
-  #about content`)
+  #about content,
+  #testimonials header,
+  #testimonials .testimonials`)
 
 /* Testimonials slider swiper */
 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
   sliderPerView: 1,
   pagination: {
     el: '.swiper-pagination'

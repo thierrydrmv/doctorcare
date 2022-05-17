@@ -398,14 +398,14 @@ body.menu-expanded button path {
   background: white;
 }
 
-#testimonials header h2 {
-  margin-bottom: 8rem;
-}
-
 #testimonials blockquote {
   padding: 3.2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
+  display: block;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #testimonials blockquote p {
@@ -417,7 +417,7 @@ body.menu-expanded button path {
 #testimonials blockquote p span {
   font: 700 4.2rem serif;
 
-  position: flex;
+  position: aboslute;
   top: -0.8rem;
   left: 0rem;
   color: var(--primary-color);
