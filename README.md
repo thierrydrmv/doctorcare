@@ -36,7 +36,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## 🔗 Links
 
-Linkedin: https://www.linkedin.com/in/thierry-de-ridder-martins-varela-849a231b0/
+Linkedin: https://www.linkedin.com/in/varela-thierry/
 
 Github: https://github.com/thierrydrmv
 
